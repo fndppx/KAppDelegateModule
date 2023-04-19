@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1F0A7AE29EF820B009CDD11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A7AD29EF820B009CDD11 /* AppDelegate.m */; };
+		D1F0A7B429EF820B009CDD11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A7B329EF820B009CDD11 /* ViewController.m */; };
+		D1F0A7B929EF820C009CDD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F0A7B829EF820C009CDD11 /* Assets.xcassets */; };
+		D1F0A7BC29EF820C009CDD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F0A7BA29EF820C009CDD11 /* LaunchScreen.storyboard */; };
+		D1F0A7BF29EF820C009CDD11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A7BE29EF820C009CDD11 /* main.m */; };
+		D1F0A7C929EF820C009CDD11 /* KAppDelegateModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A7C829EF820C009CDD11 /* KAppDelegateModuleTests.m */; };
+		D1F0A7D329EF820C009CDD11 /* KAppDelegateModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A7D229EF820C009CDD11 /* KAppDelegateModuleUITests.m */; };
+		D1F0A7D529EF820C009CDD11 /* KAppDelegateModuleUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A7D429EF820C009CDD11 /* KAppDelegateModuleUITestsLaunchTests.m */; };
+		D1F0A7E729EF82AA009CDD11 /* KAppDelegateModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A7E629EF82AA009CDD11 /* KAppDelegateModuleManager.m */; };
+		D1F0A7F729EF8A25009CDD11 /* GuidanceManger.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A7F629EF8A25009CDD11 /* GuidanceManger.m */; };
+		D1F0A81E29EF92B7009CDD11 /* ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A80C29EF92B7009CDD11 /* ModuleB.m */; };
+		D1F0A82029EF92B7009CDD11 /* ModuleVCInit.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A81329EF92B7009CDD11 /* ModuleVCInit.m */; };
+		D1F0A82129EF92B7009CDD11 /* ModuleA+B.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A81529EF92B7009CDD11 /* ModuleA+B.m */; };
+		D1F0A82229EF92B7009CDD11 /* ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A81629EF92B7009CDD11 /* ModuleA.m */; };
+		D1F0A82329EF92B7009CDD11 /* ModuleA+A.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A81729EF92B7009CDD11 /* ModuleA+A.m */; };
+		D1F0A82429EF92B7009CDD11 /* ModuleC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A81D29EF92B7009CDD11 /* ModuleC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1F0A7C529EF820C009CDD11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1F0A7A129EF820B009CDD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1F0A7A829EF820B009CDD11;
+			remoteInfo = KAppDelegateModule;
+		};
+		D1F0A7CF29EF820C009CDD11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1F0A7A129EF820B009CDD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1F0A7A829EF820B009CDD11;
+			remoteInfo = KAppDelegateModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1F0A7A929EF820B009CDD11 /* KAppDelegateModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAppDelegateModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F0A7AC29EF820B009CDD11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1F0A7AD29EF820B009CDD11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1F0A7B229EF820B009CDD11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1F0A7B329EF820B009CDD11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1F0A7B829EF820C009CDD11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1F0A7BB29EF820C009CDD11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1F0A7BD29EF820C009CDD11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F0A7BE29EF820C009CDD11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1F0A7C429EF820C009CDD11 /* KAppDelegateModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAppDelegateModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F0A7C829EF820C009CDD11 /* KAppDelegateModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAppDelegateModuleTests.m; sourceTree = "<group>"; };
+		D1F0A7CE29EF820C009CDD11 /* KAppDelegateModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAppDelegateModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F0A7D229EF820C009CDD11 /* KAppDelegateModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAppDelegateModuleUITests.m; sourceTree = "<group>"; };
+		D1F0A7D429EF820C009CDD11 /* KAppDelegateModuleUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAppDelegateModuleUITestsLaunchTests.m; sourceTree = "<group>"; };
+		D1F0A7E429EF8292009CDD11 /* KAppDelegateModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAppDelegateModuleProtocol.h; sourceTree = "<group>"; };
+		D1F0A7E529EF82AA009CDD11 /* KAppDelegateModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAppDelegateModuleManager.h; sourceTree = "<group>"; };
+		D1F0A7E629EF82AA009CDD11 /* KAppDelegateModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAppDelegateModuleManager.m; sourceTree = "<group>"; };
+		D1F0A7F529EF8A25009CDD11 /* GuidanceManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuidanceManger.h; sourceTree = "<group>"; };
+		D1F0A7F629EF8A25009CDD11 /* GuidanceManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuidanceManger.m; sourceTree = "<group>"; };
+		D1F0A80C29EF92B7009CDD11 /* ModuleB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleB.m; sourceTree = "<group>"; };
+		D1F0A80D29EF92B7009CDD11 /* ModuleB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleB.h; sourceTree = "<group>"; };
+		D1F0A81029EF92B7009CDD11 /* ModuleVCInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleVCInit.h; sourceTree = "<group>"; };
+		D1F0A81329EF92B7009CDD11 /* ModuleVCInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleVCInit.m; sourceTree = "<group>"; };
+		D1F0A81529EF92B7009CDD11 /* ModuleA+B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ModuleA+B.m"; sourceTree = "<group>"; };
+		D1F0A81629EF92B7009CDD11 /* ModuleA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleA.m; sourceTree = "<group>"; };
+		D1F0A81729EF92B7009CDD11 /* ModuleA+A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ModuleA+A.m"; sourceTree = "<group>"; };
+		D1F0A81829EF92B7009CDD11 /* ModuleA+B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModuleA+B.h"; sourceTree = "<group>"; };
+		D1F0A81929EF92B7009CDD11 /* ModuleA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleA.h; sourceTree = "<group>"; };
+		D1F0A81A29EF92B7009CDD11 /* ModuleA+A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModuleA+A.h"; sourceTree = "<group>"; };
+		D1F0A81C29EF92B7009CDD11 /* ModuleC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleC.h; sourceTree = "<group>"; };
+		D1F0A81D29EF92B7009CDD11 /* ModuleC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1F0A7A629EF820B009CDD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F0A7C129EF820C009CDD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F0A7CB29EF820C009CDD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1F0A7A029EF820B009CDD11 = {
+			isa = PBXGroup;
+			children = (
+				D1F0A7AB29EF820B009CDD11 /* KAppDelegateModule */,
+				D1F0A7C729EF820C009CDD11 /* KAppDelegateModuleTests */,
+				D1F0A7D129EF820C009CDD11 /* KAppDelegateModuleUITests */,
+				D1F0A7AA29EF820B009CDD11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1F0A7AA29EF820B009CDD11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0A7A929EF820B009CDD11 /* KAppDelegateModule.app */,
+				D1F0A7C429EF820C009CDD11 /* KAppDelegateModuleTests.xctest */,
+				D1F0A7CE29EF820C009CDD11 /* KAppDelegateModuleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1F0A7AB29EF820B009CDD11 /* KAppDelegateModule */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0A7AC29EF820B009CDD11 /* AppDelegate.h */,
+				D1F0A7AD29EF820B009CDD11 /* AppDelegate.m */,
+				D1F0A7B229EF820B009CDD11 /* ViewController.h */,
+				D1F0A7B329EF820B009CDD11 /* ViewController.m */,
+				D1F0A7E329EF825B009CDD11 /* Module */,
+				D1F0A7B829EF820C009CDD11 /* Assets.xcassets */,
+				D1F0A7BA29EF820C009CDD11 /* LaunchScreen.storyboard */,
+				D1F0A7BD29EF820C009CDD11 /* Info.plist */,
+				D1F0A7BE29EF820C009CDD11 /* main.m */,
+			);
+			path = KAppDelegateModule;
+			sourceTree = "<group>";
+		};
+		D1F0A7C729EF820C009CDD11 /* KAppDelegateModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0A7C829EF820C009CDD11 /* KAppDelegateModuleTests.m */,
+			);
+			path = KAppDelegateModuleTests;
+			sourceTree = "<group>";
+		};
+		D1F0A7D129EF820C009CDD11 /* KAppDelegateModuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0A7D229EF820C009CDD11 /* KAppDelegateModuleUITests.m */,
+				D1F0A7D429EF820C009CDD11 /* KAppDelegateModuleUITestsLaunchTests.m */,
+			);
+			path = KAppDelegateModuleUITests;
+			sourceTree = "<group>";
+		};
+		D1F0A7E329EF825B009CDD11 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0A7E429EF8292009CDD11 /* KAppDelegateModuleProtocol.h */,
+				D1F0A7E529EF82AA009CDD11 /* KAppDelegateModuleManager.h */,
+				D1F0A7E629EF82AA009CDD11 /* KAppDelegateModuleManager.m */,
+				D1F0A7E829EF8308009CDD11 /* ModuleGroup */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		D1F0A7E829EF8308009CDD11 /* ModuleGroup */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0A81429EF92B7009CDD11 /* ModuleA */,
+				D1F0A80B29EF92B7009CDD11 /* ModuleB */,
+				D1F0A81B29EF92B7009CDD11 /* ModuleC */,
+				D1F0A80F29EF92B7009CDD11 /* ModuleVCInit */,
+			);
+			path = ModuleGroup;
+			sourceTree = "<group>";
+		};
+		D1F0A80B29EF92B7009CDD11 /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0A7F529EF8A25009CDD11 /* GuidanceManger.h */,
+				D1F0A7F629EF8A25009CDD11 /* GuidanceManger.m */,
+				D1F0A80D29EF92B7009CDD11 /* ModuleB.h */,
+				D1F0A80C29EF92B7009CDD11 /* ModuleB.m */,
+			);
+			path = ModuleB;
+			sourceTree = "<group>";
+		};
+		D1F0A80F29EF92B7009CDD11 /* ModuleVCInit */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0A81029EF92B7009CDD11 /* ModuleVCInit.h */,
+				D1F0A81329EF92B7009CDD11 /* ModuleVCInit.m */,
+			);
+			path = ModuleVCInit;
+			sourceTree = "<group>";
+		};
+		D1F0A81429EF92B7009CDD11 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0A81929EF92B7009CDD11 /* ModuleA.h */,
+				D1F0A81629EF92B7009CDD11 /* ModuleA.m */,
+				D1F0A81A29EF92B7009CDD11 /* ModuleA+A.h */,
+				D1F0A81729EF92B7009CDD11 /* ModuleA+A.m */,
+				D1F0A81829EF92B7009CDD11 /* ModuleA+B.h */,
+				D1F0A81529EF92B7009CDD11 /* ModuleA+B.m */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		D1F0A81B29EF92B7009CDD11 /* ModuleC */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0A81C29EF92B7009CDD11 /* ModuleC.h */,
+				D1F0A81D29EF92B7009CDD11 /* ModuleC.m */,
+			);
+			path = ModuleC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1F0A7A829EF820B009CDD11 /* KAppDelegateModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F0A7D829EF820C009CDD11 /* Build configuration list for PBXNativeTarget "KAppDelegateModule" */;
+			buildPhases = (
+				D1F0A7A529EF820B009CDD11 /* Sources */,
+				D1F0A7A629EF820B009CDD11 /* Frameworks */,
+				D1F0A7A729EF820B009CDD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAppDelegateModule;
+			productName = KAppDelegateModule;
+			productReference = D1F0A7A929EF820B009CDD11 /* KAppDelegateModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1F0A7C329EF820C009CDD11 /* KAppDelegateModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F0A7DB29EF820C009CDD11 /* Build configuration list for PBXNativeTarget "KAppDelegateModuleTests" */;
+			buildPhases = (
+				D1F0A7C029EF820C009CDD11 /* Sources */,
+				D1F0A7C129EF820C009CDD11 /* Frameworks */,
+				D1F0A7C229EF820C009CDD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1F0A7C629EF820C009CDD11 /* PBXTargetDependency */,
+			);
+			name = KAppDelegateModuleTests;
+			productName = KAppDelegateModuleTests;
+			productReference = D1F0A7C429EF820C009CDD11 /* KAppDelegateModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1F0A7CD29EF820C009CDD11 /* KAppDelegateModuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F0A7DE29EF820C009CDD11 /* Build configuration list for PBXNativeTarget "KAppDelegateModuleUITests" */;
+			buildPhases = (
+				D1F0A7CA29EF820C009CDD11 /* Sources */,
+				D1F0A7CB29EF820C009CDD11 /* Frameworks */,
+				D1F0A7CC29EF820C009CDD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1F0A7D029EF820C009CDD11 /* PBXTargetDependency */,
+			);
+			name = KAppDelegateModuleUITests;
+			productName = KAppDelegateModuleUITests;
+			productReference = D1F0A7CE29EF820C009CDD11 /* KAppDelegateModuleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1F0A7A129EF820B009CDD11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D1F0A7A829EF820B009CDD11 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D1F0A7C329EF820C009CDD11 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D1F0A7A829EF820B009CDD11;
+					};
+					D1F0A7CD29EF820C009CDD11 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D1F0A7A829EF820B009CDD11;
+					};
+				};
+			};
+			buildConfigurationList = D1F0A7A429EF820B009CDD11 /* Build configuration list for PBXProject "KAppDelegateModule" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1F0A7A029EF820B009CDD11;
+			productRefGroup = D1F0A7AA29EF820B009CDD11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1F0A7A829EF820B009CDD11 /* KAppDelegateModule */,
+				D1F0A7C329EF820C009CDD11 /* KAppDelegateModuleTests */,
+				D1F0A7CD29EF820C009CDD11 /* KAppDelegateModuleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1F0A7A729EF820B009CDD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F0A7BC29EF820C009CDD11 /* LaunchScreen.storyboard in Resources */,
+				D1F0A7B929EF820C009CDD11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F0A7C229EF820C009CDD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F0A7CC29EF820C009CDD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1F0A7A529EF820B009CDD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F0A82129EF92B7009CDD11 /* ModuleA+B.m in Sources */,
+				D1F0A82229EF92B7009CDD11 /* ModuleA.m in Sources */,
+				D1F0A82029EF92B7009CDD11 /* ModuleVCInit.m in Sources */,
+				D1F0A7B429EF820B009CDD11 /* ViewController.m in Sources */,
+				D1F0A7AE29EF820B009CDD11 /* AppDelegate.m in Sources */,
+				D1F0A7BF29EF820C009CDD11 /* main.m in Sources */,
+				D1F0A7F729EF8A25009CDD11 /* GuidanceManger.m in Sources */,
+				D1F0A81E29EF92B7009CDD11 /* ModuleB.m in Sources */,
+				D1F0A82329EF92B7009CDD11 /* ModuleA+A.m in Sources */,
+				D1F0A82429EF92B7009CDD11 /* ModuleC.m in Sources */,
+				D1F0A7E729EF82AA009CDD11 /* KAppDelegateModuleManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F0A7C029EF820C009CDD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F0A7C929EF820C009CDD11 /* KAppDelegateModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F0A7CA29EF820C009CDD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F0A7D329EF820C009CDD11 /* KAppDelegateModuleUITests.m in Sources */,
+				D1F0A7D529EF820C009CDD11 /* KAppDelegateModuleUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1F0A7C629EF820C009CDD11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1F0A7A829EF820B009CDD11 /* KAppDelegateModule */;
+			targetProxy = D1F0A7C529EF820C009CDD11 /* PBXContainerItemProxy */;
+		};
+		D1F0A7D029EF820C009CDD11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1F0A7A829EF820B009CDD11 /* KAppDelegateModule */;
+			targetProxy = D1F0A7CF29EF820C009CDD11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1F0A7BA29EF820C009CDD11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F0A7BB29EF820C009CDD11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1F0A7D629EF820C009CDD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1F0A7D729EF820C009CDD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1F0A7D929EF820C009CDD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTYS5Y3BQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KAppDelegateModule/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test01.KAppDelegateModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1F0A7DA29EF820C009CDD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTYS5Y3BQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KAppDelegateModule/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test01.KAppDelegateModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1F0A7DC29EF820C009CDD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTYS5Y3BQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test01.KAppDelegateModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAppDelegateModule.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KAppDelegateModule";
+			};
+			name = Debug;
+		};
+		D1F0A7DD29EF820C009CDD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTYS5Y3BQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test01.KAppDelegateModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAppDelegateModule.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KAppDelegateModule";
+			};
+			name = Release;
+		};
+		D1F0A7DF29EF820C009CDD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTYS5Y3BQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test01.KAppDelegateModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KAppDelegateModule;
+			};
+			name = Debug;
+		};
+		D1F0A7E029EF820C009CDD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTYS5Y3BQZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test01.KAppDelegateModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KAppDelegateModule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1F0A7A429EF820B009CDD11 /* Build configuration list for PBXProject "KAppDelegateModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F0A7D629EF820C009CDD11 /* Debug */,
+				D1F0A7D729EF820C009CDD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F0A7D829EF820C009CDD11 /* Build configuration list for PBXNativeTarget "KAppDelegateModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F0A7D929EF820C009CDD11 /* Debug */,
+				D1F0A7DA29EF820C009CDD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F0A7DB29EF820C009CDD11 /* Build configuration list for PBXNativeTarget "KAppDelegateModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F0A7DC29EF820C009CDD11 /* Debug */,
+				D1F0A7DD29EF820C009CDD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F0A7DE29EF820C009CDD11 /* Build configuration list for PBXNativeTarget "KAppDelegateModuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F0A7DF29EF820C009CDD11 /* Debug */,
+				D1F0A7E029EF820C009CDD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1F0A7A129EF820B009CDD11 /* Project object */;
+}
