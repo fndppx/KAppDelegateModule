@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_KAppDelegateModule_KAppDelegateModuleUITests : NSObject
+@end
+@implementation PodsDummy_Pods_KAppDelegateModule_KAppDelegateModuleUITests
+@end

@@ -1,0 +1,1074 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19AFBCBF61D3D21D0540A147EE5D0174 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27FDEB1FE0D148C2525409AF55CD9DD /* UIKit.framework */; };
+		1ACA84460C2EF588F1E795846987A002 /* BHCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B7B5F934245240B05CEFC7A2BE8B566 /* BHCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		204A1C21FF02F13E5ECDAFAC3A557C71 /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB96D3C16FE3AF5D12410DB4E5DC2F6 /* BHAnnotation.m */; };
+		22EEEDFF80329C63A742FE471B71188F /* BHServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFD5BCC8C94071CBE9CCA005A7931ED /* BHServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F6BD9ED14E5509C60BE6CC2E8A7E474 /* BeeHive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01ABDD3BC60A5B67E0D20B2D4D8DE960 /* BeeHive.bundle */; };
+		345A63C45C1148F9FB999EF34A6862E4 /* BHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 19925C958C14919F5AC585D36DC2CD64 /* BHConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37AF72385FEE12A05F230D5646C228CB /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B15C810E5A5BBFAB535A9C9B9EE204 /* BHConfig.m */; };
+		3E32EDEA9A39106DB1E3EBFF2C2D0ED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
+		4897811A953FB76418D9997B3D505CE6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7F427CA20FCF5EB55A191443C28288 /* QuartzCore.framework */; };
+		4AFE40CADE104D72CEF74333EA67D3DE /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 881CB1570CCAF1A5AFCC231389FB0DE9 /* BHModuleManager.m */; };
+		4D482583C77BCAE9DE9AB4914D7A826C /* Pods-KAppDelegateModuleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3E1DE17E4A21B07E8DB79DEF8D6C38 /* Pods-KAppDelegateModuleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DF04CF0AF59E16719D13B6CBCE41E0F /* BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937D5E3B0C0F3E989BBBE35AE86891F /* BHRouter.m */; };
+		4EA871BAEFB248593090D7ACE1D7DA4E /* BeeHive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB740FFFF8AAC7216D9416101C5B589 /* BeeHive-dummy.m */; };
+		4EF874A792214C851B8C0C577231A12B /* BHServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DC86BE39A76D5BEA9DC1524EC1B3FD /* BHServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57D896DB7DF96AA9EA6ADAF14F4E2D4C /* BeeHive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D18192038B4453C0B566BB3B2DA012 /* BeeHive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F14E8FEB83257D1789017C507B3E66 /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 169121A4EDDFB6A5D9B0F695FCD7A3BC /* BHServiceManager.m */; };
+		67EAB9C1E4BAB57855D3A49F3F3E2D5F /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = C568745E0926A27A94F5660EBF91554F /* BHWatchDog.m */; };
+		74AFB3FE12DAF055D078E40E90271E39 /* Pods-KAppDelegateModuleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DFA98C8FCC0A8F07D6036B760684D4 /* Pods-KAppDelegateModuleTests-dummy.m */; };
+		795C534BD0E6597278D7553B387FA6A3 /* BHModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D9185DB9C91355D2637923D70F9D31 /* BHModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DBABC7574AE25E4324D2F3EE7A12E3F /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F1DE63AF91D0A9FD262824CFC02F21 /* BHAppDelegate.m */; };
+		7EC11ECDC4BF718E1CBAA5CCC3AF810B /* Pods-KAppDelegateModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71497D7B9DCBF6F512F0AACACB6B927F /* Pods-KAppDelegateModule-dummy.m */; };
+		86A09E528691A6F714085A2B4FFDF33F /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8962B0976D70951FC3D5A994E48DA971 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		920C5922D8ECBEF8F315B41869E74B02 /* BHModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DDD0C511AE6C2B1694C6FCD93832FD /* BHModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E0D8AFD723BD882B73722B6D1EF6C0 /* BHTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF8CF75DA2F2B5CEF154E443CD5A16D /* BHTimeProfiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B42E4E5F36CEA87076928F40CBDED00 /* BHContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D84314AE7446E788CD704AA9D5FD90D /* BHContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BC1C6D1757563D07923EF9BBE2E8CB1 /* BHAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6779F20B2C4171342D9FF996737C77A8 /* BHAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3B81EB6DA91D5394F14B50D7E90700 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
+		AA5762FE5DF2EBD79A45AD6245E3E1BB /* BHWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D9AE76B60AED86C3CA01456C12B20F /* BHWatchDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC10097ED6997C889545C5C87014988F /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8AC05F6193A4390F5229E0B8584E8 /* BHTimeProfiler.m */; };
+		AE00926AD1131D2FFDF149ADD77A7166 /* BHAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F27E7FD8C5C4108ECE2D28D6CE89D7 /* BHAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CED7B79309C5475BC0603EAEC6FDF667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
+		CFDC685601451443173D4B9A883EE7EE /* BHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D6E7AF136ACEAF7976B47A0D85090C /* BHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0616D82B30E7D83C72E318D51692345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
+		E07D22FCE99F85548C6CF34762F7B0AC /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 543E75D7FB2E1CE4B1823DF0665651DC /* BHContext.m */; };
+		EF34E6840F65A08F92CB4014B18640CB /* BeeHive.h in Headers */ = {isa = PBXBuildFile; fileRef = B576F0815DB13726DA6860AD3AC6E568 /* BeeHive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F05D18468B12BAD59CE4EE2BF98765EA /* Pods-KAppDelegateModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 261AF1FF19594B836CE105CF934DB5A7 /* Pods-KAppDelegateModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F138F0F9336915B10289E8A210A77360 /* BHDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FF890E12737A08D171656C3C5FB2227F /* BHDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBFDE6BBB8E1A5D393FAD93F3E18E5DF /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = FB98DD2944BF9A32FADF99AA9EDB6F5D /* BeeHive.m */; };
+		FF64AC4D72C9054D039B44CC25B990D8 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9103CF75E946D99AD11503A11B525E /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C27239D2962B6DD1AC6F99971394B11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D28200E527F69A9AD815DEF180E835D;
+			remoteInfo = "Pods-KAppDelegateModule";
+		};
+		712667F2DDDD2AEBE7175ACB573B2241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44247EA73414AD2DD3C8CFD635A442A9;
+			remoteInfo = BeeHive;
+		};
+		F38C9399FC14114B16E4A3303FA06AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44247EA73414AD2DD3C8CFD635A442A9;
+			remoteInfo = BeeHive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01ABDD3BC60A5B67E0D20B2D4D8DE960 /* BeeHive.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BeeHive.bundle; path = BeeHive/BeeHive.bundle; sourceTree = "<group>"; };
+		068B0D38EB33D2553F7B88FF9CB600F5 /* BeeHive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeeHive-prefix.pch"; sourceTree = "<group>"; };
+		0A6485634E3D8B7A129F788C6CA896F0 /* Pods-KAppDelegateModuleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KAppDelegateModuleTests.modulemap"; sourceTree = "<group>"; };
+		0C6F4447754E9E0133282754700553A5 /* Pods-KAppDelegateModule-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KAppDelegateModule-acknowledgements.plist"; sourceTree = "<group>"; };
+		169121A4EDDFB6A5D9B0F695FCD7A3BC /* BHServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHServiceManager.m; path = BeeHive/BHServiceManager.m; sourceTree = "<group>"; };
+		16DC86BE39A76D5BEA9DC1524EC1B3FD /* BHServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceProtocol.h; path = BeeHive/BHServiceProtocol.h; sourceTree = "<group>"; };
+		179649647E9C07790D1F3B8EF76EB026 /* Pods-KAppDelegateModule-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KAppDelegateModule-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19925C958C14919F5AC585D36DC2CD64 /* BHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHConfig.h; path = BeeHive/BHConfig.h; sourceTree = "<group>"; };
+		19F27E7FD8C5C4108ECE2D28D6CE89D7 /* BHAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAppDelegate.h; path = BeeHive/BHAppDelegate.h; sourceTree = "<group>"; };
+		1A60EBC00FC9D1C899BB2BE843867BAF /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KAppDelegateModule-KAppDelegateModuleUITests.modulemap"; sourceTree = "<group>"; };
+		1B7B5F934245240B05CEFC7A2BE8B566 /* BHCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHCommon.h; path = BeeHive/BHCommon.h; sourceTree = "<group>"; };
+		2228C5770C12019EE19760B04910859D /* Pods-KAppDelegateModule-KAppDelegateModuleUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KAppDelegateModule-KAppDelegateModuleUITests"; path = Pods_KAppDelegateModule_KAppDelegateModuleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		261AF1FF19594B836CE105CF934DB5A7 /* Pods-KAppDelegateModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KAppDelegateModule-umbrella.h"; sourceTree = "<group>"; };
+		26F591A3192D40B3A445F2C5EE87FE3B /* BeeHive */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BeeHive; path = BeeHive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		283C95B24426C50BCAEC1F041ABF5B77 /* Pods-KAppDelegateModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KAppDelegateModule.modulemap"; sourceTree = "<group>"; };
+		28D3ED05134B4D77D1E8DBEAC2EE9081 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KAppDelegateModule-KAppDelegateModuleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2DBD37E522A1F5894B0F918F73D5861A /* Pods-KAppDelegateModuleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KAppDelegateModuleTests-Info.plist"; sourceTree = "<group>"; };
+		33D9AE76B60AED86C3CA01456C12B20F /* BHWatchDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHWatchDog.h; path = BeeHive/BHWatchDog.h; sourceTree = "<group>"; };
+		3D84314AE7446E788CD704AA9D5FD90D /* BHContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHContext.h; path = BeeHive/BHContext.h; sourceTree = "<group>"; };
+		3E1A02410C9F3B885F0CA0CE7E0964FB /* Pods-KAppDelegateModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KAppDelegateModule-Info.plist"; sourceTree = "<group>"; };
+		3F9103CF75E946D99AD11503A11B525E /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KAppDelegateModule-KAppDelegateModuleUITests-dummy.m"; sourceTree = "<group>"; };
+		44DDD0C511AE6C2B1694C6FCD93832FD /* BHModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleProtocol.h; path = BeeHive/BHModuleProtocol.h; sourceTree = "<group>"; };
+		47B15C810E5A5BBFAB535A9C9B9EE204 /* BHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHConfig.m; path = BeeHive/BHConfig.m; sourceTree = "<group>"; };
+		47F1DE63AF91D0A9FD262824CFC02F21 /* BHAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAppDelegate.m; path = BeeHive/BHAppDelegate.m; sourceTree = "<group>"; };
+		543E75D7FB2E1CE4B1823DF0665651DC /* BHContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHContext.m; path = BeeHive/BHContext.m; sourceTree = "<group>"; };
+		6560BB4D8B26B2FFFF533729799C8830 /* Pods-KAppDelegateModuleTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KAppDelegateModuleTests"; path = Pods_KAppDelegateModuleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D56A94454E92D912A5704B270BB0AA /* BeeHive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeeHive.debug.xcconfig; sourceTree = "<group>"; };
+		6779F20B2C4171342D9FF996737C77A8 /* BHAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAnnotation.h; path = BeeHive/BHAnnotation.h; sourceTree = "<group>"; };
+		69F7818AA979557787669F288BC2CDFF /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KAppDelegateModule-KAppDelegateModuleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		710BD293FC550CCD128AFC0467C15BE8 /* Pods-KAppDelegateModule-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KAppDelegateModule-frameworks.sh"; sourceTree = "<group>"; };
+		71497D7B9DCBF6F512F0AACACB6B927F /* Pods-KAppDelegateModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KAppDelegateModule-dummy.m"; sourceTree = "<group>"; };
+		72A1FB38FD1BE2FADC7F4E0F1AC90045 /* BeeHive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BeeHive-Info.plist"; sourceTree = "<group>"; };
+		72B0469AAA55CE26F2F358A0B17B18CA /* Pods-KAppDelegateModuleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KAppDelegateModuleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74D18192038B4453C0B566BB3B2DA012 /* BeeHive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeeHive-umbrella.h"; sourceTree = "<group>"; };
+		7650CC783E4BB691BE143DE718E8BDCA /* Pods-KAppDelegateModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KAppDelegateModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		770E21229DB8696CF9936451CE76D227 /* Pods-KAppDelegateModule */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KAppDelegateModule"; path = Pods_KAppDelegateModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79175DA1C3FB42F8054129743563C9DC /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KAppDelegateModule-KAppDelegateModuleUITests-Info.plist"; sourceTree = "<group>"; };
+		7CB740FFFF8AAC7216D9416101C5B589 /* BeeHive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeeHive-dummy.m"; sourceTree = "<group>"; };
+		7D476BD060AB100466338F41D86E878E /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KAppDelegateModule-KAppDelegateModuleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83DFA98C8FCC0A8F07D6036B760684D4 /* Pods-KAppDelegateModuleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KAppDelegateModuleTests-dummy.m"; sourceTree = "<group>"; };
+		85D9185DB9C91355D2637923D70F9D31 /* BHModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleManager.h; path = BeeHive/BHModuleManager.h; sourceTree = "<group>"; };
+		881CB1570CCAF1A5AFCC231389FB0DE9 /* BHModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHModuleManager.m; path = BeeHive/BHModuleManager.m; sourceTree = "<group>"; };
+		8962B0976D70951FC3D5A994E48DA971 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KAppDelegateModule-KAppDelegateModuleUITests-umbrella.h"; sourceTree = "<group>"; };
+		8A3E1DE17E4A21B07E8DB79DEF8D6C38 /* Pods-KAppDelegateModuleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KAppDelegateModuleTests-umbrella.h"; sourceTree = "<group>"; };
+		98F8AC05F6193A4390F5229E0B8584E8 /* BHTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHTimeProfiler.m; path = BeeHive/BHTimeProfiler.m; sourceTree = "<group>"; };
+		9937D5E3B0C0F3E989BBBE35AE86891F /* BHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHRouter.m; path = BeeHive/BHRouter.m; sourceTree = "<group>"; };
+		99D6E7AF136ACEAF7976B47A0D85090C /* BHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHRouter.h; path = BeeHive/BHRouter.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B576F0815DB13726DA6860AD3AC6E568 /* BeeHive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeeHive.h; path = BeeHive/BeeHive.h; sourceTree = "<group>"; };
+		BEB96D3C16FE3AF5D12410DB4E5DC2F6 /* BHAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAnnotation.m; path = BeeHive/BHAnnotation.m; sourceTree = "<group>"; };
+		BEE212E67D34F9D22E941C5B1D49DDC2 /* Pods-KAppDelegateModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KAppDelegateModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C27FDEB1FE0D148C2525409AF55CD9DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C3AE5EE6AC491383F81C0BCB44776A35 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KAppDelegateModule-KAppDelegateModuleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4186524BA3B20C5030CAE29CE6F8609 /* Pods-KAppDelegateModuleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KAppDelegateModuleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C568745E0926A27A94F5660EBF91554F /* BHWatchDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHWatchDog.m; path = BeeHive/BHWatchDog.m; sourceTree = "<group>"; };
+		CC655A1AACC62EFB57B535222C85812A /* Pods-KAppDelegateModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KAppDelegateModule.release.xcconfig"; sourceTree = "<group>"; };
+		D943AE32814445D92191841E1EFDDCAD /* Pods-KAppDelegateModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KAppDelegateModule.debug.xcconfig"; sourceTree = "<group>"; };
+		DBFD5BCC8C94071CBE9CCA005A7931ED /* BHServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceManager.h; path = BeeHive/BHServiceManager.h; sourceTree = "<group>"; };
+		DFF8CF75DA2F2B5CEF154E443CD5A16D /* BHTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHTimeProfiler.h; path = BeeHive/BHTimeProfiler.h; sourceTree = "<group>"; };
+		E6844A1FD508FC217434FB92C7C84321 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KAppDelegateModule-KAppDelegateModuleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EA2DD47FF2E5C55E9838122C686DA3EE /* BeeHive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeeHive.release.xcconfig; sourceTree = "<group>"; };
+		F545BE5440EBB95DCCA0138E39733595 /* BeeHive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BeeHive.modulemap; sourceTree = "<group>"; };
+		FB98DD2944BF9A32FADF99AA9EDB6F5D /* BeeHive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeeHive.m; path = BeeHive/BeeHive.m; sourceTree = "<group>"; };
+		FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FE7F427CA20FCF5EB55A191443C28288 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FF890E12737A08D171656C3C5FB2227F /* BHDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHDefines.h; path = BeeHive/BHDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21BB67C61CDFE5C4E180EB94EE1747CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0616D82B30E7D83C72E318D51692345 /* Foundation.framework in Frameworks */,
+				4897811A953FB76418D9997B3D505CE6 /* QuartzCore.framework in Frameworks */,
+				19AFBCBF61D3D21D0540A147EE5D0174 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787816DFCA750F45F1BFEA7258FA9691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED7B79309C5475BC0603EAEC6FDF667 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5D1B0AFDCDFFDD07AD3239E46B0BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3B81EB6DA91D5394F14B50D7E90700 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE735D11A091AA4B6E3B5BFC089E8A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E32EDEA9A39106DB1E3EBFF2C2D0ED5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025A0C5CCE24110AD5BCB0AFD81415D3 /* BeeHive */ = {
+			isa = PBXGroup;
+			children = (
+				B576F0815DB13726DA6860AD3AC6E568 /* BeeHive.h */,
+				FB98DD2944BF9A32FADF99AA9EDB6F5D /* BeeHive.m */,
+				6779F20B2C4171342D9FF996737C77A8 /* BHAnnotation.h */,
+				BEB96D3C16FE3AF5D12410DB4E5DC2F6 /* BHAnnotation.m */,
+				19F27E7FD8C5C4108ECE2D28D6CE89D7 /* BHAppDelegate.h */,
+				47F1DE63AF91D0A9FD262824CFC02F21 /* BHAppDelegate.m */,
+				1B7B5F934245240B05CEFC7A2BE8B566 /* BHCommon.h */,
+				19925C958C14919F5AC585D36DC2CD64 /* BHConfig.h */,
+				47B15C810E5A5BBFAB535A9C9B9EE204 /* BHConfig.m */,
+				3D84314AE7446E788CD704AA9D5FD90D /* BHContext.h */,
+				543E75D7FB2E1CE4B1823DF0665651DC /* BHContext.m */,
+				FF890E12737A08D171656C3C5FB2227F /* BHDefines.h */,
+				85D9185DB9C91355D2637923D70F9D31 /* BHModuleManager.h */,
+				881CB1570CCAF1A5AFCC231389FB0DE9 /* BHModuleManager.m */,
+				44DDD0C511AE6C2B1694C6FCD93832FD /* BHModuleProtocol.h */,
+				99D6E7AF136ACEAF7976B47A0D85090C /* BHRouter.h */,
+				9937D5E3B0C0F3E989BBBE35AE86891F /* BHRouter.m */,
+				DBFD5BCC8C94071CBE9CCA005A7931ED /* BHServiceManager.h */,
+				169121A4EDDFB6A5D9B0F695FCD7A3BC /* BHServiceManager.m */,
+				16DC86BE39A76D5BEA9DC1524EC1B3FD /* BHServiceProtocol.h */,
+				DFF8CF75DA2F2B5CEF154E443CD5A16D /* BHTimeProfiler.h */,
+				98F8AC05F6193A4390F5229E0B8584E8 /* BHTimeProfiler.m */,
+				33D9AE76B60AED86C3CA01456C12B20F /* BHWatchDog.h */,
+				C568745E0926A27A94F5660EBF91554F /* BHWatchDog.m */,
+				8EFB561B9A942DD46D746A319EE55172 /* Resources */,
+				C208A6C53D45BF88DC75AB1262CA8701 /* Support Files */,
+			);
+			name = BeeHive;
+			path = BeeHive;
+			sourceTree = "<group>";
+		};
+		0267D88E72724D36DFBEDB8BF9DC7263 /* Pods-KAppDelegateModule */ = {
+			isa = PBXGroup;
+			children = (
+				283C95B24426C50BCAEC1F041ABF5B77 /* Pods-KAppDelegateModule.modulemap */,
+				179649647E9C07790D1F3B8EF76EB026 /* Pods-KAppDelegateModule-acknowledgements.markdown */,
+				0C6F4447754E9E0133282754700553A5 /* Pods-KAppDelegateModule-acknowledgements.plist */,
+				71497D7B9DCBF6F512F0AACACB6B927F /* Pods-KAppDelegateModule-dummy.m */,
+				710BD293FC550CCD128AFC0467C15BE8 /* Pods-KAppDelegateModule-frameworks.sh */,
+				3E1A02410C9F3B885F0CA0CE7E0964FB /* Pods-KAppDelegateModule-Info.plist */,
+				261AF1FF19594B836CE105CF934DB5A7 /* Pods-KAppDelegateModule-umbrella.h */,
+				D943AE32814445D92191841E1EFDDCAD /* Pods-KAppDelegateModule.debug.xcconfig */,
+				CC655A1AACC62EFB57B535222C85812A /* Pods-KAppDelegateModule.release.xcconfig */,
+			);
+			name = "Pods-KAppDelegateModule";
+			path = "Target Support Files/Pods-KAppDelegateModule";
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84500DE8FA3C1A04FB6C1A7869926382 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24B39339368C3EECF8253C7ED7868F4E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0267D88E72724D36DFBEDB8BF9DC7263 /* Pods-KAppDelegateModule */,
+				B4725C51EF046AD01D24FFDD65A02C20 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests */,
+				851BCA05BA78FA17E8A85FFFB210C670 /* Pods-KAppDelegateModuleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		84500DE8FA3C1A04FB6C1A7869926382 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */,
+				FE7F427CA20FCF5EB55A191443C28288 /* QuartzCore.framework */,
+				C27FDEB1FE0D148C2525409AF55CD9DD /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		851BCA05BA78FA17E8A85FFFB210C670 /* Pods-KAppDelegateModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A6485634E3D8B7A129F788C6CA896F0 /* Pods-KAppDelegateModuleTests.modulemap */,
+				72B0469AAA55CE26F2F358A0B17B18CA /* Pods-KAppDelegateModuleTests-acknowledgements.markdown */,
+				C4186524BA3B20C5030CAE29CE6F8609 /* Pods-KAppDelegateModuleTests-acknowledgements.plist */,
+				83DFA98C8FCC0A8F07D6036B760684D4 /* Pods-KAppDelegateModuleTests-dummy.m */,
+				2DBD37E522A1F5894B0F918F73D5861A /* Pods-KAppDelegateModuleTests-Info.plist */,
+				8A3E1DE17E4A21B07E8DB79DEF8D6C38 /* Pods-KAppDelegateModuleTests-umbrella.h */,
+				7650CC783E4BB691BE143DE718E8BDCA /* Pods-KAppDelegateModuleTests.debug.xcconfig */,
+				BEE212E67D34F9D22E941C5B1D49DDC2 /* Pods-KAppDelegateModuleTests.release.xcconfig */,
+			);
+			name = "Pods-KAppDelegateModuleTests";
+			path = "Target Support Files/Pods-KAppDelegateModuleTests";
+			sourceTree = "<group>";
+		};
+		8EFB561B9A942DD46D746A319EE55172 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01ABDD3BC60A5B67E0D20B2D4D8DE960 /* BeeHive.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B4725C51EF046AD01D24FFDD65A02C20 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A60EBC00FC9D1C899BB2BE843867BAF /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.modulemap */,
+				69F7818AA979557787669F288BC2CDFF /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-acknowledgements.markdown */,
+				C3AE5EE6AC491383F81C0BCB44776A35 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-acknowledgements.plist */,
+				3F9103CF75E946D99AD11503A11B525E /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-dummy.m */,
+				E6844A1FD508FC217434FB92C7C84321 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-frameworks.sh */,
+				79175DA1C3FB42F8054129743563C9DC /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-Info.plist */,
+				8962B0976D70951FC3D5A994E48DA971 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-umbrella.h */,
+				7D476BD060AB100466338F41D86E878E /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.debug.xcconfig */,
+				28D3ED05134B4D77D1E8DBEAC2EE9081 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.release.xcconfig */,
+			);
+			name = "Pods-KAppDelegateModule-KAppDelegateModuleUITests";
+			path = "Target Support Files/Pods-KAppDelegateModule-KAppDelegateModuleUITests";
+			sourceTree = "<group>";
+		};
+		C208A6C53D45BF88DC75AB1262CA8701 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F545BE5440EBB95DCCA0138E39733595 /* BeeHive.modulemap */,
+				7CB740FFFF8AAC7216D9416101C5B589 /* BeeHive-dummy.m */,
+				72A1FB38FD1BE2FADC7F4E0F1AC90045 /* BeeHive-Info.plist */,
+				068B0D38EB33D2553F7B88FF9CB600F5 /* BeeHive-prefix.pch */,
+				74D18192038B4453C0B566BB3B2DA012 /* BeeHive-umbrella.h */,
+				66D56A94454E92D912A5704B270BB0AA /* BeeHive.debug.xcconfig */,
+				EA2DD47FF2E5C55E9838122C686DA3EE /* BeeHive.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BeeHive";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				D9F9ADE51A866B7D2B475C48E3F9A873 /* Pods */,
+				DF564D147E4ED485B56E277291EBA1D6 /* Products */,
+				24B39339368C3EECF8253C7ED7868F4E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D9F9ADE51A866B7D2B475C48E3F9A873 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				025A0C5CCE24110AD5BCB0AFD81415D3 /* BeeHive */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF564D147E4ED485B56E277291EBA1D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F591A3192D40B3A445F2C5EE87FE3B /* BeeHive */,
+				770E21229DB8696CF9936451CE76D227 /* Pods-KAppDelegateModule */,
+				2228C5770C12019EE19760B04910859D /* Pods-KAppDelegateModule-KAppDelegateModuleUITests */,
+				6560BB4D8B26B2FFFF533729799C8830 /* Pods-KAppDelegateModuleTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EA038FBC7B60E698A61AEB1587FE846 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D482583C77BCAE9DE9AB4914D7A826C /* Pods-KAppDelegateModuleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4792EA9520FF876F68F38631576FE76E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A09E528691A6F714085A2B4FFDF33F /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A006BB454BEFA2C2F915E09906C7519A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF34E6840F65A08F92CB4014B18640CB /* BeeHive.h in Headers */,
+				57D896DB7DF96AA9EA6ADAF14F4E2D4C /* BeeHive-umbrella.h in Headers */,
+				9BC1C6D1757563D07923EF9BBE2E8CB1 /* BHAnnotation.h in Headers */,
+				AE00926AD1131D2FFDF149ADD77A7166 /* BHAppDelegate.h in Headers */,
+				1ACA84460C2EF588F1E795846987A002 /* BHCommon.h in Headers */,
+				345A63C45C1148F9FB999EF34A6862E4 /* BHConfig.h in Headers */,
+				9B42E4E5F36CEA87076928F40CBDED00 /* BHContext.h in Headers */,
+				F138F0F9336915B10289E8A210A77360 /* BHDefines.h in Headers */,
+				795C534BD0E6597278D7553B387FA6A3 /* BHModuleManager.h in Headers */,
+				920C5922D8ECBEF8F315B41869E74B02 /* BHModuleProtocol.h in Headers */,
+				CFDC685601451443173D4B9A883EE7EE /* BHRouter.h in Headers */,
+				22EEEDFF80329C63A742FE471B71188F /* BHServiceManager.h in Headers */,
+				4EF874A792214C851B8C0C577231A12B /* BHServiceProtocol.h in Headers */,
+				99E0D8AFD723BD882B73722B6D1EF6C0 /* BHTimeProfiler.h in Headers */,
+				AA5762FE5DF2EBD79A45AD6245E3E1BB /* BHWatchDog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D602B3599A8898A86387FDBA8494B8FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05D18468B12BAD59CE4EE2BF98765EA /* Pods-KAppDelegateModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44247EA73414AD2DD3C8CFD635A442A9 /* BeeHive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0977C62EFF76C89DC8C51034284ECFE /* Build configuration list for PBXNativeTarget "BeeHive" */;
+			buildPhases = (
+				A006BB454BEFA2C2F915E09906C7519A /* Headers */,
+				90FFB037251AEF41A7DA1ABF93069D96 /* Sources */,
+				21BB67C61CDFE5C4E180EB94EE1747CF /* Frameworks */,
+				871FC8BF7F18D0AA80E165997634DECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeHive;
+			productName = BeeHive;
+			productReference = 26F591A3192D40B3A445F2C5EE87FE3B /* BeeHive */;
+			productType = "com.apple.product-type.framework";
+		};
+		455A85957B918F878E122984CC780070 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859409453DC9CA58B9D0A396283BCB26 /* Build configuration list for PBXNativeTarget "Pods-KAppDelegateModule-KAppDelegateModuleUITests" */;
+			buildPhases = (
+				4792EA9520FF876F68F38631576FE76E /* Headers */,
+				85A009F76F20B1CBC042FB7141502EE3 /* Sources */,
+				EE735D11A091AA4B6E3B5BFC089E8A64 /* Frameworks */,
+				F494F02271E8E7C57394264E1A9DA33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E22145B833DFB51987AC93A961E5B492 /* PBXTargetDependency */,
+			);
+			name = "Pods-KAppDelegateModule-KAppDelegateModuleUITests";
+			productName = Pods_KAppDelegateModule_KAppDelegateModuleUITests;
+			productReference = 2228C5770C12019EE19760B04910859D /* Pods-KAppDelegateModule-KAppDelegateModuleUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D28200E527F69A9AD815DEF180E835D /* Pods-KAppDelegateModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B930A2A2B1FC28F40C013FEF506DAE01 /* Build configuration list for PBXNativeTarget "Pods-KAppDelegateModule" */;
+			buildPhases = (
+				D602B3599A8898A86387FDBA8494B8FD /* Headers */,
+				FEDB4FA87884A43AB4A19439D20ED4A8 /* Sources */,
+				787816DFCA750F45F1BFEA7258FA9691 /* Frameworks */,
+				C32F9E0A6F69312FD9F8E1DE904BDE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BC443FC61F5C47CCB070C7E4E993842 /* PBXTargetDependency */,
+			);
+			name = "Pods-KAppDelegateModule";
+			productName = Pods_KAppDelegateModule;
+			productReference = 770E21229DB8696CF9936451CE76D227 /* Pods-KAppDelegateModule */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB69C36A5162FEA27C69D7ACD84365BD /* Pods-KAppDelegateModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF18DAFDB0F7A78E726F404923620CC2 /* Build configuration list for PBXNativeTarget "Pods-KAppDelegateModuleTests" */;
+			buildPhases = (
+				2EA038FBC7B60E698A61AEB1587FE846 /* Headers */,
+				160F4C6D2D7986F3D0054554E86486CD /* Sources */,
+				EC5D1B0AFDCDFFDD07AD3239E46B0BCB /* Frameworks */,
+				AFC7976DCE8F43C8A9DAF1A9C171C575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE9AEB0446DD0A3674706B1D9CCE4F28 /* PBXTargetDependency */,
+			);
+			name = "Pods-KAppDelegateModuleTests";
+			productName = Pods_KAppDelegateModuleTests;
+			productReference = 6560BB4D8B26B2FFFF533729799C8830 /* Pods-KAppDelegateModuleTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DF564D147E4ED485B56E277291EBA1D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44247EA73414AD2DD3C8CFD635A442A9 /* BeeHive */,
+				8D28200E527F69A9AD815DEF180E835D /* Pods-KAppDelegateModule */,
+				455A85957B918F878E122984CC780070 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests */,
+				DB69C36A5162FEA27C69D7ACD84365BD /* Pods-KAppDelegateModuleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		871FC8BF7F18D0AA80E165997634DECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6BD9ED14E5509C60BE6CC2E8A7E474 /* BeeHive.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC7976DCE8F43C8A9DAF1A9C171C575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32F9E0A6F69312FD9F8E1DE904BDE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F494F02271E8E7C57394264E1A9DA33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		160F4C6D2D7986F3D0054554E86486CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AFB3FE12DAF055D078E40E90271E39 /* Pods-KAppDelegateModuleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A009F76F20B1CBC042FB7141502EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF64AC4D72C9054D039B44CC25B990D8 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FFB037251AEF41A7DA1ABF93069D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFDE6BBB8E1A5D393FAD93F3E18E5DF /* BeeHive.m in Sources */,
+				4EA871BAEFB248593090D7ACE1D7DA4E /* BeeHive-dummy.m in Sources */,
+				204A1C21FF02F13E5ECDAFAC3A557C71 /* BHAnnotation.m in Sources */,
+				7DBABC7574AE25E4324D2F3EE7A12E3F /* BHAppDelegate.m in Sources */,
+				37AF72385FEE12A05F230D5646C228CB /* BHConfig.m in Sources */,
+				E07D22FCE99F85548C6CF34762F7B0AC /* BHContext.m in Sources */,
+				4AFE40CADE104D72CEF74333EA67D3DE /* BHModuleManager.m in Sources */,
+				4DF04CF0AF59E16719D13B6CBCE41E0F /* BHRouter.m in Sources */,
+				61F14E8FEB83257D1789017C507B3E66 /* BHServiceManager.m in Sources */,
+				AC10097ED6997C889545C5C87014988F /* BHTimeProfiler.m in Sources */,
+				67EAB9C1E4BAB57855D3A49F3F3E2D5F /* BHWatchDog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDB4FA87884A43AB4A19439D20ED4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC11ECDC4BF718E1CBAA5CCC3AF810B /* Pods-KAppDelegateModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BC443FC61F5C47CCB070C7E4E993842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BeeHive;
+			target = 44247EA73414AD2DD3C8CFD635A442A9 /* BeeHive */;
+			targetProxy = 712667F2DDDD2AEBE7175ACB573B2241 /* PBXContainerItemProxy */;
+		};
+		BE9AEB0446DD0A3674706B1D9CCE4F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KAppDelegateModule";
+			target = 8D28200E527F69A9AD815DEF180E835D /* Pods-KAppDelegateModule */;
+			targetProxy = 3C27239D2962B6DD1AC6F99971394B11 /* PBXContainerItemProxy */;
+		};
+		E22145B833DFB51987AC93A961E5B492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BeeHive;
+			target = 44247EA73414AD2DD3C8CFD635A442A9 /* BeeHive */;
+			targetProxy = F38C9399FC14114B16E4A3303FA06AC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		178C43C3450E8A44F828D622EB27A683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D476BD060AB100466338F41D86E878E /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KAppDelegateModule-KAppDelegateModuleUITests/Pods-KAppDelegateModule-KAppDelegateModuleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KAppDelegateModule-KAppDelegateModuleUITests/Pods-KAppDelegateModule-KAppDelegateModuleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30578CCB8832C623EA737AAB21BCBF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D943AE32814445D92191841E1EFDDCAD /* Pods-KAppDelegateModule.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KAppDelegateModule/Pods-KAppDelegateModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KAppDelegateModule/Pods-KAppDelegateModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44D71FEF2DE0E57EB33C6C9ED9C5294A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC655A1AACC62EFB57B535222C85812A /* Pods-KAppDelegateModule.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KAppDelegateModule/Pods-KAppDelegateModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KAppDelegateModule/Pods-KAppDelegateModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8EAE13B9D534A18C670F3B68BADF73C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D56A94454E92D912A5704B270BB0AA /* BeeHive.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BeeHive/BeeHive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeeHive/BeeHive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BeeHive/BeeHive.modulemap";
+				PRODUCT_MODULE_NAME = BeeHive;
+				PRODUCT_NAME = BeeHive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6573DC0C2BA10AEACD3D23FF31CD997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7650CC783E4BB691BE143DE718E8BDCA /* Pods-KAppDelegateModuleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KAppDelegateModuleTests/Pods-KAppDelegateModuleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KAppDelegateModuleTests/Pods-KAppDelegateModuleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E019096757BA4BAE0A2461C34CA95A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D3ED05134B4D77D1E8DBEAC2EE9081 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KAppDelegateModule-KAppDelegateModuleUITests/Pods-KAppDelegateModule-KAppDelegateModuleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KAppDelegateModule-KAppDelegateModuleUITests/Pods-KAppDelegateModule-KAppDelegateModuleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F26E24E16AD252A94B195B2B30FA53A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE212E67D34F9D22E941C5B1D49DDC2 /* Pods-KAppDelegateModuleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KAppDelegateModuleTests/Pods-KAppDelegateModuleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KAppDelegateModuleTests/Pods-KAppDelegateModuleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE4622649E61A14E913E4E89A36A119C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2DD47FF2E5C55E9838122C686DA3EE /* BeeHive.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BeeHive/BeeHive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeeHive/BeeHive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BeeHive/BeeHive.modulemap";
+				PRODUCT_MODULE_NAME = BeeHive;
+				PRODUCT_NAME = BeeHive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		859409453DC9CA58B9D0A396283BCB26 /* Build configuration list for PBXNativeTarget "Pods-KAppDelegateModule-KAppDelegateModuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178C43C3450E8A44F828D622EB27A683 /* Debug */,
+				E019096757BA4BAE0A2461C34CA95A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B930A2A2B1FC28F40C013FEF506DAE01 /* Build configuration list for PBXNativeTarget "Pods-KAppDelegateModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30578CCB8832C623EA737AAB21BCBF77 /* Debug */,
+				44D71FEF2DE0E57EB33C6C9ED9C5294A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0977C62EFF76C89DC8C51034284ECFE /* Build configuration list for PBXNativeTarget "BeeHive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAE13B9D534A18C670F3B68BADF73C1 /* Debug */,
+				FE4622649E61A14E913E4E89A36A119C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF18DAFDB0F7A78E726F404923620CC2 /* Build configuration list for PBXNativeTarget "Pods-KAppDelegateModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6573DC0C2BA10AEACD3D23FF31CD997 /* Debug */,
+				F26E24E16AD252A94B195B2B30FA53A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

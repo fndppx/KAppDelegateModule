@@ -1,0 +1,6 @@
+framework module Pods_KAppDelegateModuleTests {
+  umbrella header "Pods-KAppDelegateModuleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

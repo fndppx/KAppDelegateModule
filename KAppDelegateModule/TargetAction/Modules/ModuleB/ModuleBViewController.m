@@ -1,20 +1,22 @@
 //
-//  ViewController.m
+//  ModuleBViewController.m
 //  KAppDelegateModule
 //
-//  Created by DXM on 2023/4/19.
+//  Created by kyan on 2023/5/8.
 //
 
-#import "ViewController.h"
+#import "ModuleBViewController.h"
 #import "CTMediator+ModuleAActions.h"
-@interface ViewController ()
+@interface ModuleBViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ModuleBViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"B";
+
     // Do any additional setup after loading the view.
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -22,11 +24,23 @@
     button.frame = CGRectMake(100, 100, 100, 40);
     [self.view addSubview:button];
     [button addTarget:self action:@selector(buttonPressed) forControlEvents:UIControlEventTouchUpInside];
+    
 }
 
 - (void)buttonPressed {
     UIViewController *viewController = [[CTMediator sharedInstance] CTMediator_viewControllerForModuleA];
     [self.navigationController pushViewController:viewController animated:YES];
 }
+
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

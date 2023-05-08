@@ -1,0 +1,16 @@
+PODS:
+  - BeeHive (1.6.0)
+
+DEPENDENCIES:
+  - BeeHive
+
+SPEC REPOS:
+  trunk:
+    - BeeHive
+
+SPEC CHECKSUMS:
+  BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
+
+PODFILE CHECKSUM: d00e3a7b28bda5d716db3039ddc47f27249fe818
+
+COCOAPODS: 1.12.0

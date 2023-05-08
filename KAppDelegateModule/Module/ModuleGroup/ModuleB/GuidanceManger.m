@@ -11,7 +11,7 @@
     
     UIView * v = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
     [superView addSubview:v];
-    v.backgroundColor = [UIColor redColor];
+    v.backgroundColor = [UIColor clearColor];
     !completion?:completion();
 }
 @end

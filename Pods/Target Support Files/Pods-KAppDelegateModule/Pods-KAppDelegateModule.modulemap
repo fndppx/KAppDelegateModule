@@ -1,0 +1,6 @@
+framework module Pods_KAppDelegateModule {
+  umbrella header "Pods-KAppDelegateModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

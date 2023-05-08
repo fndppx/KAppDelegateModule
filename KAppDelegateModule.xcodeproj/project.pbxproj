@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		334D675915CE362F83DA0797 /* Pods_KAppDelegateModule_KAppDelegateModuleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11BE642823B0F63F24A1261 /* Pods_KAppDelegateModule_KAppDelegateModuleUITests.framework */; };
+		8B1016A47C56FA82746241E3 /* Pods_KAppDelegateModuleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E53E52B712E1F2EEF2D8678 /* Pods_KAppDelegateModuleTests.framework */; };
+		C1D92F6918FC53E723EC3898 /* Pods_KAppDelegateModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347E0ACE70ACF95CDACD08BB /* Pods_KAppDelegateModule.framework */; };
+		D13156DA2A0894C900D94204 /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D13156D62A0894C900D94204 /* CTMediator+HandyTools.m */; };
+		D13156DB2A0894C900D94204 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D13156D72A0894C900D94204 /* CTMediator.m */; };
+		D13156E22A08957B00D94204 /* ModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13156E12A08957B00D94204 /* ModuleAViewController.m */; };
+		D13156E52A08958A00D94204 /* ModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13156E42A08958A00D94204 /* ModuleBViewController.m */; };
+		D13156E82A0895B400D94204 /* Target_ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = D13156E72A0895B400D94204 /* Target_ModuleB.m */; };
+		D13156EB2A0895C500D94204 /* Target_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = D13156EA2A0895C500D94204 /* Target_ModuleA.m */; };
+		D13156F72A089E9A00D94204 /* CTMediator+ModuleAActions.m in Sources */ = {isa = PBXBuildFile; fileRef = D13156F62A089E9A00D94204 /* CTMediator+ModuleAActions.m */; };
+		D13156FA2A089EBA00D94204 /* CTMediator+ModuleBActions.m in Sources */ = {isa = PBXBuildFile; fileRef = D13156F92A089EBA00D94204 /* CTMediator+ModuleBActions.m */; };
+		D131571A2A08E15F00D94204 /* SModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13157192A08E15F00D94204 /* SModuleAViewController.m */; };
+		D131571F2A08E2CE00D94204 /* BModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D131571E2A08E2CE00D94204 /* BModuleManager.m */; };
+		D13157222A08E2D800D94204 /* AModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D13157212A08E2D800D94204 /* AModuleManager.m */; };
+		D13157252A08E65B00D94204 /* SModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13157242A08E65B00D94204 /* SModuleBViewController.m */; };
 		D1F0A7AE29EF820B009CDD11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A7AD29EF820B009CDD11 /* AppDelegate.m */; };
 		D1F0A7B429EF820B009CDD11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A7B329EF820B009CDD11 /* ViewController.m */; };
 		D1F0A7B929EF820C009CDD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F0A7B829EF820C009CDD11 /* Assets.xcassets */; };
@@ -43,6 +58,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C2C7F5BFF00660150819385 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAppDelegateModule-KAppDelegateModuleUITests.debug.xcconfig"; path = "Target Support Files/Pods-KAppDelegateModule-KAppDelegateModuleUITests/Pods-KAppDelegateModule-KAppDelegateModuleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		347E0ACE70ACF95CDACD08BB /* Pods_KAppDelegateModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KAppDelegateModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B381285334B59C0418E7479 /* Pods-KAppDelegateModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAppDelegateModule.release.xcconfig"; path = "Target Support Files/Pods-KAppDelegateModule/Pods-KAppDelegateModule.release.xcconfig"; sourceTree = "<group>"; };
+		6541F1F28EA8EC6124214C75 /* Pods-KAppDelegateModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAppDelegateModuleTests.release.xcconfig"; path = "Target Support Files/Pods-KAppDelegateModuleTests/Pods-KAppDelegateModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+		670A3E7F8DE852AA9C4D13F6 /* Pods-KAppDelegateModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAppDelegateModule.debug.xcconfig"; path = "Target Support Files/Pods-KAppDelegateModule/Pods-KAppDelegateModule.debug.xcconfig"; sourceTree = "<group>"; };
+		7E53E52B712E1F2EEF2D8678 /* Pods_KAppDelegateModuleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KAppDelegateModuleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C3D034005C36E349340FA6 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAppDelegateModule-KAppDelegateModuleUITests.release.xcconfig"; path = "Target Support Files/Pods-KAppDelegateModule-KAppDelegateModuleUITests/Pods-KAppDelegateModule-KAppDelegateModuleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D13156D62A0894C900D94204 /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		D13156D72A0894C900D94204 /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		D13156D82A0894C900D94204 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+HandyTools.h"; sourceTree = "<group>"; };
+		D13156D92A0894C900D94204 /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		D13156E02A08957B00D94204 /* ModuleAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAViewController.h; sourceTree = "<group>"; };
+		D13156E12A08957B00D94204 /* ModuleAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAViewController.m; sourceTree = "<group>"; };
+		D13156E32A08958A00D94204 /* ModuleBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBViewController.h; sourceTree = "<group>"; };
+		D13156E42A08958A00D94204 /* ModuleBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBViewController.m; sourceTree = "<group>"; };
+		D13156E62A0895B400D94204 /* Target_ModuleB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ModuleB.h; sourceTree = "<group>"; };
+		D13156E72A0895B400D94204 /* Target_ModuleB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleB.m; sourceTree = "<group>"; };
+		D13156E92A0895C500D94204 /* Target_ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ModuleA.h; sourceTree = "<group>"; };
+		D13156EA2A0895C500D94204 /* Target_ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleA.m; sourceTree = "<group>"; };
+		D13156F52A089E9A00D94204 /* CTMediator+ModuleAActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleAActions.h"; sourceTree = "<group>"; };
+		D13156F62A089E9A00D94204 /* CTMediator+ModuleAActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleAActions.m"; sourceTree = "<group>"; };
+		D13156F82A089EBA00D94204 /* CTMediator+ModuleBActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleBActions.h"; sourceTree = "<group>"; };
+		D13156F92A089EBA00D94204 /* CTMediator+ModuleBActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleBActions.m"; sourceTree = "<group>"; };
+		D13157182A08E15F00D94204 /* SModuleAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SModuleAViewController.h; sourceTree = "<group>"; };
+		D13157192A08E15F00D94204 /* SModuleAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SModuleAViewController.m; sourceTree = "<group>"; };
+		D131571B2A08E19A00D94204 /* AModuleService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AModuleService.h; sourceTree = "<group>"; };
+		D131571C2A08E1A700D94204 /* BModuleService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BModuleService.h; sourceTree = "<group>"; };
+		D131571D2A08E2CE00D94204 /* BModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BModuleManager.h; sourceTree = "<group>"; };
+		D131571E2A08E2CE00D94204 /* BModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BModuleManager.m; sourceTree = "<group>"; };
+		D13157202A08E2D800D94204 /* AModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AModuleManager.h; sourceTree = "<group>"; };
+		D13157212A08E2D800D94204 /* AModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AModuleManager.m; sourceTree = "<group>"; };
+		D13157232A08E65B00D94204 /* SModuleBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SModuleBViewController.h; sourceTree = "<group>"; };
+		D13157242A08E65B00D94204 /* SModuleBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SModuleBViewController.m; sourceTree = "<group>"; };
 		D1F0A7A929EF820B009CDD11 /* KAppDelegateModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAppDelegateModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F0A7AC29EF820B009CDD11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1F0A7AD29EF820B009CDD11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,6 +122,8 @@
 		D1F0A81A29EF92B7009CDD11 /* ModuleA+A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModuleA+A.h"; sourceTree = "<group>"; };
 		D1F0A81C29EF92B7009CDD11 /* ModuleC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleC.h; sourceTree = "<group>"; };
 		D1F0A81D29EF92B7009CDD11 /* ModuleC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleC.m; sourceTree = "<group>"; };
+		E11BE642823B0F63F24A1261 /* Pods_KAppDelegateModule_KAppDelegateModuleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KAppDelegateModule_KAppDelegateModuleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C6A246474A43CAA88FABC7 /* Pods-KAppDelegateModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAppDelegateModuleTests.debug.xcconfig"; path = "Target Support Files/Pods-KAppDelegateModuleTests/Pods-KAppDelegateModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D92F6918FC53E723EC3898 /* Pods_KAppDelegateModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B1016A47C56FA82746241E3 /* Pods_KAppDelegateModuleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,12 +147,170 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334D675915CE362F83DA0797 /* Pods_KAppDelegateModule_KAppDelegateModuleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EA011846E735F4140786988 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				670A3E7F8DE852AA9C4D13F6 /* Pods-KAppDelegateModule.debug.xcconfig */,
+				5B381285334B59C0418E7479 /* Pods-KAppDelegateModule.release.xcconfig */,
+				0C2C7F5BFF00660150819385 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.debug.xcconfig */,
+				C2C3D034005C36E349340FA6 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.release.xcconfig */,
+				F2C6A246474A43CAA88FABC7 /* Pods-KAppDelegateModuleTests.debug.xcconfig */,
+				6541F1F28EA8EC6124214C75 /* Pods-KAppDelegateModuleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		59DB11110C25CF864AB57515 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				347E0ACE70ACF95CDACD08BB /* Pods_KAppDelegateModule.framework */,
+				E11BE642823B0F63F24A1261 /* Pods_KAppDelegateModule_KAppDelegateModuleUITests.framework */,
+				7E53E52B712E1F2EEF2D8678 /* Pods_KAppDelegateModuleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D13156D12A08942900D94204 /* TargetAction */ = {
+			isa = PBXGroup;
+			children = (
+				D13156EC2A0895D400D94204 /* Mediator */,
+				D13156DD2A08951C00D94204 /* Modules */,
+			);
+			path = TargetAction;
+			sourceTree = "<group>";
+		};
+		D13156D22A08943200D94204 /* ServiceRegister */ = {
+			isa = PBXGroup;
+			children = (
+				D13157062A08DE6200D94204 /* Mediator */,
+				D13156FB2A08DE6200D94204 /* Modules */,
+			);
+			path = ServiceRegister;
+			sourceTree = "<group>";
+		};
+		D13156D32A08945200D94204 /* URLRouter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = URLRouter;
+			sourceTree = "<group>";
+		};
+		D13156D42A0894B900D94204 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D13156D52A0894C900D94204 /* CTMediator */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		D13156D52A0894C900D94204 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				D13156D92A0894C900D94204 /* CTMediator.h */,
+				D13156D72A0894C900D94204 /* CTMediator.m */,
+				D13156D82A0894C900D94204 /* CTMediator+HandyTools.h */,
+				D13156D62A0894C900D94204 /* CTMediator+HandyTools.m */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		D13156DD2A08951C00D94204 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D13156DF2A08953400D94204 /* ModuleB */,
+				D13156DE2A08952A00D94204 /* ModuleA */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D13156DE2A08952A00D94204 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				D13156E92A0895C500D94204 /* Target_ModuleA.h */,
+				D13156EA2A0895C500D94204 /* Target_ModuleA.m */,
+				D13156E02A08957B00D94204 /* ModuleAViewController.h */,
+				D13156E12A08957B00D94204 /* ModuleAViewController.m */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		D13156DF2A08953400D94204 /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				D13156E32A08958A00D94204 /* ModuleBViewController.h */,
+				D13156E42A08958A00D94204 /* ModuleBViewController.m */,
+				D13156E62A0895B400D94204 /* Target_ModuleB.h */,
+				D13156E72A0895B400D94204 /* Target_ModuleB.m */,
+			);
+			path = ModuleB;
+			sourceTree = "<group>";
+		};
+		D13156EC2A0895D400D94204 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				D13156F32A089D1700D94204 /* TargetAction */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		D13156F32A089D1700D94204 /* TargetAction */ = {
+			isa = PBXGroup;
+			children = (
+				D13156F52A089E9A00D94204 /* CTMediator+ModuleAActions.h */,
+				D13156F62A089E9A00D94204 /* CTMediator+ModuleAActions.m */,
+				D13156F82A089EBA00D94204 /* CTMediator+ModuleBActions.h */,
+				D13156F92A089EBA00D94204 /* CTMediator+ModuleBActions.m */,
+			);
+			path = TargetAction;
+			sourceTree = "<group>";
+		};
+		D13156FB2A08DE6200D94204 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D13156FC2A08DE6200D94204 /* ModuleB */,
+				D13157012A08DE6200D94204 /* ModuleA */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D13156FC2A08DE6200D94204 /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				D131571D2A08E2CE00D94204 /* BModuleManager.h */,
+				D131571E2A08E2CE00D94204 /* BModuleManager.m */,
+				D13157232A08E65B00D94204 /* SModuleBViewController.h */,
+				D13157242A08E65B00D94204 /* SModuleBViewController.m */,
+			);
+			path = ModuleB;
+			sourceTree = "<group>";
+		};
+		D13157012A08DE6200D94204 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				D13157182A08E15F00D94204 /* SModuleAViewController.h */,
+				D13157192A08E15F00D94204 /* SModuleAViewController.m */,
+				D13157202A08E2D800D94204 /* AModuleManager.h */,
+				D13157212A08E2D800D94204 /* AModuleManager.m */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		D13157062A08DE6200D94204 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				D131571B2A08E19A00D94204 /* AModuleService.h */,
+				D131571C2A08E1A700D94204 /* BModuleService.h */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
 		D1F0A7A029EF820B009CDD11 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +318,8 @@
 				D1F0A7C729EF820C009CDD11 /* KAppDelegateModuleTests */,
 				D1F0A7D129EF820C009CDD11 /* KAppDelegateModuleUITests */,
 				D1F0A7AA29EF820B009CDD11 /* Products */,
+				0EA011846E735F4140786988 /* Pods */,
+				59DB11110C25CF864AB57515 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +340,10 @@
 				D1F0A7AD29EF820B009CDD11 /* AppDelegate.m */,
 				D1F0A7B229EF820B009CDD11 /* ViewController.h */,
 				D1F0A7B329EF820B009CDD11 /* ViewController.m */,
+				D13156D42A0894B900D94204 /* Lib */,
+				D13156D32A08945200D94204 /* URLRouter */,
+				D13156D22A08943200D94204 /* ServiceRegister */,
+				D13156D12A08942900D94204 /* TargetAction */,
 				D1F0A7E329EF825B009CDD11 /* Module */,
 				D1F0A7B829EF820C009CDD11 /* Assets.xcassets */,
 				D1F0A7BA29EF820C009CDD11 /* LaunchScreen.storyboard */,
@@ -225,9 +441,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1F0A7D829EF820C009CDD11 /* Build configuration list for PBXNativeTarget "KAppDelegateModule" */;
 			buildPhases = (
+				B66B6728BFA0B835D5EB2232 /* [CP] Check Pods Manifest.lock */,
 				D1F0A7A529EF820B009CDD11 /* Sources */,
 				D1F0A7A629EF820B009CDD11 /* Frameworks */,
 				D1F0A7A729EF820B009CDD11 /* Resources */,
+				293E2A1C01720BABA20ED0FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,6 +460,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1F0A7DB29EF820C009CDD11 /* Build configuration list for PBXNativeTarget "KAppDelegateModuleTests" */;
 			buildPhases = (
+				CBF6AB43965715AC97D2D801 /* [CP] Check Pods Manifest.lock */,
 				D1F0A7C029EF820C009CDD11 /* Sources */,
 				D1F0A7C129EF820C009CDD11 /* Frameworks */,
 				D1F0A7C229EF820C009CDD11 /* Resources */,
@@ -260,9 +479,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1F0A7DE29EF820C009CDD11 /* Build configuration list for PBXNativeTarget "KAppDelegateModuleUITests" */;
 			buildPhases = (
+				4A6DC363636D3FDE10AC4B30 /* [CP] Check Pods Manifest.lock */,
 				D1F0A7CA29EF820C009CDD11 /* Sources */,
 				D1F0A7CB29EF820C009CDD11 /* Frameworks */,
 				D1F0A7CC29EF820C009CDD11 /* Resources */,
+				6780BE0620D2925D22F78D89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -342,6 +563,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		293E2A1C01720BABA20ED0FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KAppDelegateModule/Pods-KAppDelegateModule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KAppDelegateModule/Pods-KAppDelegateModule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KAppDelegateModule/Pods-KAppDelegateModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A6DC363636D3FDE10AC4B30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KAppDelegateModule-KAppDelegateModuleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6780BE0620D2925D22F78D89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KAppDelegateModule-KAppDelegateModuleUITests/Pods-KAppDelegateModule-KAppDelegateModuleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KAppDelegateModule-KAppDelegateModuleUITests/Pods-KAppDelegateModule-KAppDelegateModuleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KAppDelegateModule-KAppDelegateModuleUITests/Pods-KAppDelegateModule-KAppDelegateModuleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B66B6728BFA0B835D5EB2232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KAppDelegateModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF6AB43965715AC97D2D801 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KAppDelegateModuleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1F0A7A529EF820B009CDD11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -349,15 +673,27 @@
 			files = (
 				D1F0A82129EF92B7009CDD11 /* ModuleA+B.m in Sources */,
 				D1F0A82229EF92B7009CDD11 /* ModuleA.m in Sources */,
+				D13157252A08E65B00D94204 /* SModuleBViewController.m in Sources */,
+				D13156E22A08957B00D94204 /* ModuleAViewController.m in Sources */,
+				D13156F72A089E9A00D94204 /* CTMediator+ModuleAActions.m in Sources */,
+				D131571F2A08E2CE00D94204 /* BModuleManager.m in Sources */,
+				D131571A2A08E15F00D94204 /* SModuleAViewController.m in Sources */,
+				D13156FA2A089EBA00D94204 /* CTMediator+ModuleBActions.m in Sources */,
 				D1F0A82029EF92B7009CDD11 /* ModuleVCInit.m in Sources */,
 				D1F0A7B429EF820B009CDD11 /* ViewController.m in Sources */,
+				D13156DB2A0894C900D94204 /* CTMediator.m in Sources */,
 				D1F0A7AE29EF820B009CDD11 /* AppDelegate.m in Sources */,
 				D1F0A7BF29EF820C009CDD11 /* main.m in Sources */,
+				D13156DA2A0894C900D94204 /* CTMediator+HandyTools.m in Sources */,
+				D13156E82A0895B400D94204 /* Target_ModuleB.m in Sources */,
+				D13157222A08E2D800D94204 /* AModuleManager.m in Sources */,
 				D1F0A7F729EF8A25009CDD11 /* GuidanceManger.m in Sources */,
+				D13156E52A08958A00D94204 /* ModuleBViewController.m in Sources */,
 				D1F0A81E29EF92B7009CDD11 /* ModuleB.m in Sources */,
 				D1F0A82329EF92B7009CDD11 /* ModuleA+A.m in Sources */,
 				D1F0A82429EF92B7009CDD11 /* ModuleC.m in Sources */,
 				D1F0A7E729EF82AA009CDD11 /* KAppDelegateModuleManager.m in Sources */,
+				D13156EB2A0895C500D94204 /* Target_ModuleA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +853,7 @@
 		};
 		D1F0A7D929EF820C009CDD11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670A3E7F8DE852AA9C4D13F6 /* Pods-KAppDelegateModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -543,6 +880,7 @@
 		};
 		D1F0A7DA29EF820C009CDD11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B381285334B59C0418E7479 /* Pods-KAppDelegateModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -569,6 +907,7 @@
 		};
 		D1F0A7DC29EF820C009CDD11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C6A246474A43CAA88FABC7 /* Pods-KAppDelegateModuleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -587,6 +926,7 @@
 		};
 		D1F0A7DD29EF820C009CDD11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6541F1F28EA8EC6124214C75 /* Pods-KAppDelegateModuleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -605,6 +945,7 @@
 		};
 		D1F0A7DF29EF820C009CDD11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2C7F5BFF00660150819385 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -621,6 +962,7 @@
 		};
 		D1F0A7E029EF820C009CDD11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C3D034005C36E349340FA6 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
