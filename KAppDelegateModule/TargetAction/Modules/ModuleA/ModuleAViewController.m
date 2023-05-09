@@ -15,7 +15,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"A";
+    self.title = @"target-action A";
     // Do any additional setup after loading the view.
     NSLog(@"self.data>>>%@",self.data);
     NSLog(@"imageView>>>%@", self.imageView);

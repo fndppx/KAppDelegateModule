@@ -1,23 +1,24 @@
 //
-//  SModuleAViewController.m
+//  URLModuleAViewController.m
 //  KAppDelegateModule
 //
-//  Created by kyan on 2023/5/8.
+//  Created by kyan on 2023/5/9.
 //
 
-#import "SModuleAViewController.h"
-#import "BModuleService.h"
-@interface SModuleAViewController ()
+#import "URLModuleAViewController.h"
+#import "MGJRouter.h"
+@interface URLModuleAViewController ()
 
 @end
 
-@implementation SModuleAViewController
+@implementation URLModuleAViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"服务注册 A";
+    self.title = @"URL A";
 
+    
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
     button.backgroundColor = [UIColor redColor];
     button.frame = CGRectMake(100, 100, 100, 40);
@@ -26,12 +27,9 @@
 }
 
 - (void)buttonPressed {
-    id<BModuleService> service = [[BeeHive shareInstance]createService:@protocol(BModuleService)];
-    UIViewController *vc = service.getBModuleVC;
+    UIViewController *vc = [MGJRouter objectForURL:@"mgj://app/getModuleB" withUserInfo:@{@"key":@"传递的数据"}];
     [self.navigationController pushViewController:vc animated:YES];
 }
-
-
 
 /*
 #pragma mark - Navigation

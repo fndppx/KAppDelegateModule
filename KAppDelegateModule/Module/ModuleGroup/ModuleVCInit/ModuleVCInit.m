@@ -7,17 +7,23 @@
 
 #import "ModuleVCInit.h"
 #import "ViewController.h"
+//测试
 #import "SModuleAViewController.h"
+#import "URLModuleAViewController.h"
 @implementation ModuleVCInit
 - (void)setupWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"%s",__func__);
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-//    self.window.rootViewController = [[ViewController alloc]init];
+    // target-action
 //    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
     
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[SModuleAViewController alloc]init]];
+    // 服务注册
+//    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[SModuleAViewController alloc]init]];
+
+    // url
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[URLModuleAViewController alloc]init]];
 
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];

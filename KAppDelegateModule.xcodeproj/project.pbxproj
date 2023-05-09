@@ -22,6 +22,10 @@
 		D131571F2A08E2CE00D94204 /* BModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D131571E2A08E2CE00D94204 /* BModuleManager.m */; };
 		D13157222A08E2D800D94204 /* AModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D13157212A08E2D800D94204 /* AModuleManager.m */; };
 		D13157252A08E65B00D94204 /* SModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13157242A08E65B00D94204 /* SModuleBViewController.m */; };
+		D131572F2A09E9F700D94204 /* RouterMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D131572E2A09E9F700D94204 /* RouterMediator.m */; };
+		D13157392A09F40400D94204 /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D13157382A09F40400D94204 /* MGJRouter.m */; };
+		D131574D2A09F4D100D94204 /* URLModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D131574C2A09F4D100D94204 /* URLModuleAViewController.m */; };
+		D13157502A09F52400D94204 /* URLModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D131574F2A09F52400D94204 /* URLModuleBViewController.m */; };
 		D1F0A7AE29EF820B009CDD11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A7AD29EF820B009CDD11 /* AppDelegate.m */; };
 		D1F0A7B429EF820B009CDD11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0A7B329EF820B009CDD11 /* ViewController.m */; };
 		D1F0A7B929EF820C009CDD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F0A7B829EF820C009CDD11 /* Assets.xcassets */; };
@@ -91,6 +95,14 @@
 		D13157212A08E2D800D94204 /* AModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AModuleManager.m; sourceTree = "<group>"; };
 		D13157232A08E65B00D94204 /* SModuleBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SModuleBViewController.h; sourceTree = "<group>"; };
 		D13157242A08E65B00D94204 /* SModuleBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SModuleBViewController.m; sourceTree = "<group>"; };
+		D131572D2A09E9F700D94204 /* RouterMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterMediator.h; sourceTree = "<group>"; };
+		D131572E2A09E9F700D94204 /* RouterMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterMediator.m; sourceTree = "<group>"; };
+		D13157372A09F40400D94204 /* MGJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJRouter.h; sourceTree = "<group>"; };
+		D13157382A09F40400D94204 /* MGJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJRouter.m; sourceTree = "<group>"; };
+		D131574B2A09F4D100D94204 /* URLModuleAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLModuleAViewController.h; sourceTree = "<group>"; };
+		D131574C2A09F4D100D94204 /* URLModuleAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLModuleAViewController.m; sourceTree = "<group>"; };
+		D131574E2A09F52400D94204 /* URLModuleBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLModuleBViewController.h; sourceTree = "<group>"; };
+		D131574F2A09F52400D94204 /* URLModuleBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLModuleBViewController.m; sourceTree = "<group>"; };
 		D1F0A7A929EF820B009CDD11 /* KAppDelegateModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAppDelegateModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F0A7AC29EF820B009CDD11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1F0A7AD29EF820B009CDD11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -198,6 +210,10 @@
 		D13156D32A08945200D94204 /* URLRouter */ = {
 			isa = PBXGroup;
 			children = (
+				D131573A2A09F45E00D94204 /* ModuleA */,
+				D131573F2A09F45F00D94204 /* ModuleB */,
+				D13157362A09F40400D94204 /* MGJRouter */,
+				D131572C2A09E9D700D94204 /* Mediator */,
 			);
 			path = URLRouter;
 			sourceTree = "<group>";
@@ -309,6 +325,42 @@
 				D131571C2A08E1A700D94204 /* BModuleService.h */,
 			);
 			path = Mediator;
+			sourceTree = "<group>";
+		};
+		D131572C2A09E9D700D94204 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				D131572D2A09E9F700D94204 /* RouterMediator.h */,
+				D131572E2A09E9F700D94204 /* RouterMediator.m */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		D13157362A09F40400D94204 /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				D13157372A09F40400D94204 /* MGJRouter.h */,
+				D13157382A09F40400D94204 /* MGJRouter.m */,
+			);
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		D131573A2A09F45E00D94204 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				D131574B2A09F4D100D94204 /* URLModuleAViewController.h */,
+				D131574C2A09F4D100D94204 /* URLModuleAViewController.m */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		D131573F2A09F45F00D94204 /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				D131574E2A09F52400D94204 /* URLModuleBViewController.h */,
+				D131574F2A09F52400D94204 /* URLModuleBViewController.m */,
+			);
+			path = ModuleB;
 			sourceTree = "<group>";
 		};
 		D1F0A7A029EF820B009CDD11 = {
@@ -677,9 +729,11 @@
 				D13156E22A08957B00D94204 /* ModuleAViewController.m in Sources */,
 				D13156F72A089E9A00D94204 /* CTMediator+ModuleAActions.m in Sources */,
 				D131571F2A08E2CE00D94204 /* BModuleManager.m in Sources */,
+				D131574D2A09F4D100D94204 /* URLModuleAViewController.m in Sources */,
 				D131571A2A08E15F00D94204 /* SModuleAViewController.m in Sources */,
 				D13156FA2A089EBA00D94204 /* CTMediator+ModuleBActions.m in Sources */,
 				D1F0A82029EF92B7009CDD11 /* ModuleVCInit.m in Sources */,
+				D13157502A09F52400D94204 /* URLModuleBViewController.m in Sources */,
 				D1F0A7B429EF820B009CDD11 /* ViewController.m in Sources */,
 				D13156DB2A0894C900D94204 /* CTMediator.m in Sources */,
 				D1F0A7AE29EF820B009CDD11 /* AppDelegate.m in Sources */,
@@ -688,10 +742,12 @@
 				D13156E82A0895B400D94204 /* Target_ModuleB.m in Sources */,
 				D13157222A08E2D800D94204 /* AModuleManager.m in Sources */,
 				D1F0A7F729EF8A25009CDD11 /* GuidanceManger.m in Sources */,
+				D131572F2A09E9F700D94204 /* RouterMediator.m in Sources */,
 				D13156E52A08958A00D94204 /* ModuleBViewController.m in Sources */,
 				D1F0A81E29EF92B7009CDD11 /* ModuleB.m in Sources */,
 				D1F0A82329EF92B7009CDD11 /* ModuleA+A.m in Sources */,
 				D1F0A82429EF92B7009CDD11 /* ModuleC.m in Sources */,
+				D13157392A09F40400D94204 /* MGJRouter.m in Sources */,
 				D1F0A7E729EF82AA009CDD11 /* KAppDelegateModuleManager.m in Sources */,
 				D13156EB2A0895C500D94204 /* Target_ModuleA.m in Sources */,
 			);

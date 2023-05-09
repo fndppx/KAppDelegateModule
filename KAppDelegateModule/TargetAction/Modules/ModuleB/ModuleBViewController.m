@@ -15,7 +15,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"B";
+    self.title = @"target-action B";
 
     // Do any additional setup after loading the view.
     
