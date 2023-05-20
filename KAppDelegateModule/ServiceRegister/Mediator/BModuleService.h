@@ -6,11 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BeeHive.h"
+#import "PMediator.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol BModuleService <NSObject>
 - (UIViewController*)getBModuleVC;
+- (NSInteger)getBModuleGoodsNumber;
 @end
 
 NS_ASSUME_NONNULL_END

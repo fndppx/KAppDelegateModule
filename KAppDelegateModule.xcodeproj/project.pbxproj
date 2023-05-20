@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B70F972A18BA35008E4DC8 /* PMediatorAutoRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B70F922A18BA35008E4DC8 /* PMediatorAutoRegister.m */; };
+		18B70F982A18BA35008E4DC8 /* ConcurrentMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B70F942A18BA35008E4DC8 /* ConcurrentMutableDictionary.m */; };
+		18B70F992A18BA35008E4DC8 /* PMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B70F952A18BA35008E4DC8 /* PMediator.m */; };
+		18B70F9D2A18BA9A008E4DC8 /* ZYBMediatorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B70F9A2A18BA9A008E4DC8 /* ZYBMediatorUtils.m */; };
 		334D675915CE362F83DA0797 /* Pods_KAppDelegateModule_KAppDelegateModuleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11BE642823B0F63F24A1261 /* Pods_KAppDelegateModule_KAppDelegateModuleUITests.framework */; };
 		8B1016A47C56FA82746241E3 /* Pods_KAppDelegateModuleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E53E52B712E1F2EEF2D8678 /* Pods_KAppDelegateModuleTests.framework */; };
 		C1D92F6918FC53E723EC3898 /* Pods_KAppDelegateModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347E0ACE70ACF95CDACD08BB /* Pods_KAppDelegateModule.framework */; };
@@ -63,6 +67,15 @@
 
 /* Begin PBXFileReference section */
 		0C2C7F5BFF00660150819385 /* Pods-KAppDelegateModule-KAppDelegateModuleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAppDelegateModule-KAppDelegateModuleUITests.debug.xcconfig"; path = "Target Support Files/Pods-KAppDelegateModule-KAppDelegateModuleUITests/Pods-KAppDelegateModule-KAppDelegateModuleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		18B70F912A18BA35008E4DC8 /* ConcurrentMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrentMutableDictionary.h; sourceTree = "<group>"; };
+		18B70F922A18BA35008E4DC8 /* PMediatorAutoRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMediatorAutoRegister.m; sourceTree = "<group>"; };
+		18B70F932A18BA35008E4DC8 /* PMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMediator.h; sourceTree = "<group>"; };
+		18B70F942A18BA35008E4DC8 /* ConcurrentMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrentMutableDictionary.m; sourceTree = "<group>"; };
+		18B70F952A18BA35008E4DC8 /* PMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMediator.m; sourceTree = "<group>"; };
+		18B70F962A18BA35008E4DC8 /* PMediatorAutoRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMediatorAutoRegister.h; sourceTree = "<group>"; };
+		18B70F9A2A18BA9A008E4DC8 /* ZYBMediatorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBMediatorUtils.m; sourceTree = "<group>"; };
+		18B70F9B2A18BA9A008E4DC8 /* ZYBMediatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBMediatorProtocol.h; sourceTree = "<group>"; };
+		18B70F9C2A18BA9A008E4DC8 /* ZYBMediatorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBMediatorUtils.h; sourceTree = "<group>"; };
 		347E0ACE70ACF95CDACD08BB /* Pods_KAppDelegateModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KAppDelegateModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B381285334B59C0418E7479 /* Pods-KAppDelegateModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAppDelegateModule.release.xcconfig"; path = "Target Support Files/Pods-KAppDelegateModule/Pods-KAppDelegateModule.release.xcconfig"; sourceTree = "<group>"; };
 		6541F1F28EA8EC6124214C75 /* Pods-KAppDelegateModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAppDelegateModuleTests.release.xcconfig"; path = "Target Support Files/Pods-KAppDelegateModuleTests/Pods-KAppDelegateModuleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +192,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		18B70F902A18BA35008E4DC8 /* ProtocolMediator */ = {
+			isa = PBXGroup;
+			children = (
+				18B70F912A18BA35008E4DC8 /* ConcurrentMutableDictionary.h */,
+				18B70F942A18BA35008E4DC8 /* ConcurrentMutableDictionary.m */,
+				18B70F932A18BA35008E4DC8 /* PMediator.h */,
+				18B70F952A18BA35008E4DC8 /* PMediator.m */,
+				18B70F962A18BA35008E4DC8 /* PMediatorAutoRegister.h */,
+				18B70F922A18BA35008E4DC8 /* PMediatorAutoRegister.m */,
+				18B70F9B2A18BA9A008E4DC8 /* ZYBMediatorProtocol.h */,
+				18B70F9C2A18BA9A008E4DC8 /* ZYBMediatorUtils.h */,
+				18B70F9A2A18BA9A008E4DC8 /* ZYBMediatorUtils.m */,
+			);
+			path = ProtocolMediator;
+			sourceTree = "<group>";
+		};
 		59DB11110C25CF864AB57515 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +250,7 @@
 		D13156D42A0894B900D94204 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				18B70F902A18BA35008E4DC8 /* ProtocolMediator */,
 				D13156D52A0894C900D94204 /* CTMediator */,
 			);
 			path = Lib;
@@ -570,7 +600,7 @@
 				};
 			};
 			buildConfigurationList = D1F0A7A429EF820B009CDD11 /* Build configuration list for PBXProject "KAppDelegateModule" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -728,6 +758,7 @@
 				D13157252A08E65B00D94204 /* SModuleBViewController.m in Sources */,
 				D13156E22A08957B00D94204 /* ModuleAViewController.m in Sources */,
 				D13156F72A089E9A00D94204 /* CTMediator+ModuleAActions.m in Sources */,
+				18B70F992A18BA35008E4DC8 /* PMediator.m in Sources */,
 				D131571F2A08E2CE00D94204 /* BModuleManager.m in Sources */,
 				D131574D2A09F4D100D94204 /* URLModuleAViewController.m in Sources */,
 				D131571A2A08E15F00D94204 /* SModuleAViewController.m in Sources */,
@@ -743,7 +774,10 @@
 				D13157222A08E2D800D94204 /* AModuleManager.m in Sources */,
 				D1F0A7F729EF8A25009CDD11 /* GuidanceManger.m in Sources */,
 				D131572F2A09E9F700D94204 /* RouterMediator.m in Sources */,
+				18B70F982A18BA35008E4DC8 /* ConcurrentMutableDictionary.m in Sources */,
+				18B70F9D2A18BA9A008E4DC8 /* ZYBMediatorUtils.m in Sources */,
 				D13156E52A08958A00D94204 /* ModuleBViewController.m in Sources */,
+				18B70F972A18BA35008E4DC8 /* PMediatorAutoRegister.m in Sources */,
 				D1F0A81E29EF92B7009CDD11 /* ModuleB.m in Sources */,
 				D1F0A82329EF92B7009CDD11 /* ModuleA+A.m in Sources */,
 				D1F0A82429EF92B7009CDD11 /* ModuleC.m in Sources */,

@@ -11,6 +11,7 @@
 #import "ModuleVCInit.h"
 #import "ModuleA.h"
 #import "ModuleB.h"
+#import "PMediator.h"
 typedef NS_ENUM(int, ModuleStartupStepType) {
     ModuleStartupStepTypeInit,
     ModuleStartupStepTypeAppWillFinish,
@@ -156,7 +157,7 @@ typedef NS_ENUM(int, ModuleStartupStepType) {
     [moduleList addObject:[ModuleA new]];
     [moduleList addObject:[ModuleVCInit new]];
     [moduleList addObject:[ModuleB new]];
-    
+        
     // 有新的需求模块后续追加
     self.startupModuleList = [moduleList copy];
 }

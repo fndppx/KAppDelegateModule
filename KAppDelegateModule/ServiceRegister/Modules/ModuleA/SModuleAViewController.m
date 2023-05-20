@@ -26,7 +26,12 @@
 }
 
 - (void)buttonPressed {
-    id<BModuleService> service = [[BeeHive shareInstance]createService:@protocol(BModuleService)];
+    
+    // BModuleService 放到指定需要调用的模块中 
+    // 业务模块可以直接调用对应接口
+
+    id<BModuleService> service = [[PMediator sharedInstance]createService:@protocol(BModuleService)];
+    NSInteger number = service.getBModuleGoodsNumber;
     UIViewController *vc = service.getBModuleVC;
     [self.navigationController pushViewController:vc animated:YES];
 }
